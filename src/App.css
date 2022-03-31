@@ -2,6 +2,11 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+body iframe {
+  z-index: -999999;
+}
+
 .App {
   text-align: center;
 }

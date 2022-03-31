@@ -2,6 +2,18 @@
   font-size: 2em;
 }
 
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 999;
+}
+@media (max-width: 768px) {
+  .social-container {
+    justify-content: center;
+  }
+}
+
 .icon-button i {
   color: white;
 }
@@ -43,6 +55,16 @@
 }
 
 .github i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #333;
+}
+
+.node i {
+  background-color: #0ef503;
+  transition: all 0.2s ease-in-out;
+}
+
+.node i:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #333;
 }
